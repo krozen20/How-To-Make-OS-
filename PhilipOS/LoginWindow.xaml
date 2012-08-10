@@ -1,0 +1,15 @@
+﻿<metro:Window x:Class="PhilipOS.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:metro="http://schemas.codeplex.com/elysium/theme"
+        Title="PhilipOS - Login" Height="259" Width="398" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="ToolWindow" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Center" Margin="76,12,16,186" Name="txtUsername" VerticalAlignment="Center" Width="284" />
+        <PasswordBox Height="23" HorizontalAlignment="Center" Margin="76,40,16,156" Name="txtPassword" VerticalAlignment="Center" Width="284" />
+        <TextBlock Height="23" HorizontalAlignment="Center" Margin="18,40,305,156" Name="textBlock1" Text="Password:" VerticalAlignment="Center" />
+        <TextBlock Height="23" HorizontalAlignment="Center" Margin="12,12,305,186" Name="textBlock2" Text="Username: " VerticalAlignment="Center" />
+        <CheckBox Content="Remember Me?" Height="32" HorizontalAlignment="Center" Margin="8,70,235,118" Name="chkRemember" VerticalAlignment="Center" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" Width="133" />
+        <Button Content="Login" Height="32" HorizontalAlignment="Center" Margin="257,70,16,118" Name="btnLogin" VerticalAlignment="Center" Width="103" Click="btnLogin_Click" />
+        <Label Content="Label" Height="28" HorizontalAlignment="Right" Margin="0,0,12,12" Name="lblVersion" VerticalAlignment="Bottom" Foreground="#FF9A9A9A" />
+    </Grid>
+</metro:Window>
